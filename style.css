@@ -1,0 +1,55 @@
+body {
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+button {
+    margin-bottom: 5px;
+    border: 1px solid gray; 
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black; 
+    cursor: pointer;
+}
+
+input {
+  border: none;
+  box-shadow: 1px 1px 3px black;
+  border-radius: 20px; 
+}
+
+.location-btn {
+    margin-bottom: 5px;
+}
+
+.error-style {
+    color: red;
+}
+
+.forecast-selected-unit-option, .selected-unit-option {
+    background-color: black;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.favourites-label {
+    color: green;
+}
+
+#dark-mode-btn {
+   position: absolute;
+   top: 5px;
+   right: 5px; 
+}
+
+.body-dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.input-dark-mode {
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+}
