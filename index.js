@@ -423,7 +423,7 @@ async function fetchWeatherLocations() {
     let placeName = placeNamInput.value;
 
     try {
-        const response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${placeName}&limit=5&appid=${apiKey}`);
+        const response = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${placeName}&limit=5&appid=${apiKey}`);
         if(response.ok) {
             if(locationsSection.classList.contains("error-style")) {
                 locationsSection.classList.remove("error-style");
