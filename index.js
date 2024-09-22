@@ -1,4 +1,6 @@
-let apiKey = "de4cd596a3675b54b7984438a796ad56";
+import config from "./config.js"
+
+let apiKey = config.apiKey;
 let placeNamInput = document.getElementById("place-input");
 let getWeatherBtn = document.getElementById("get-weather-btn");
 let getYourWeatherBtn = document.getElementById("get-your-weather-btn");
